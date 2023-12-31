@@ -14,7 +14,7 @@ def home(request):
             name,
             email,
             message,
-            ['sahanmadhawa97@gmail.com'],
+            [''],
             fail_silently=False
         )
         messages.success(request,'Your message has been deliverd successfully !')
